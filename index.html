@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avon</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">Твои ресницы <br><span>к взлету готовы</span></div>
+    <div class="subtitle">
+        <span class="subtitle__number">94</span>
+        <span class="subtitle__text">Женщин подтвердили:<br> лифтинг и фиксация ресниц<br> на 24 часа!</span></div>
+    <div class="product">
+        <div class="promo">
+                <div class="promo__img"></div>
+                <div class="promo__content">
+                    <div class="promo__close"></div>
+                    <div class="promo__label">Акция</div>
+                    <div class="promo__title">Любой оттенок блеска</div>
+                    <div class="promo__price"><span>за</span> 99<span>₽*</span></div>
+                    <div class="promo__btn-wrapper">
+                        <div class="promo__desc">*при покупке любого оттенка туши</div>
+                        <div class="promo__btn">Купить</div>
+                    </div>
+                </div>
+        </div>
+        <div class="product__img">
+            <picture class="product__main-img-lp">
+                <source srcset="images/main_img_dsc.webp" type="image/webp">
+                <img src="images/main_img_dsc.png" alt="Тушь Avon" />
+            </picture>
+            <img class="product__main-img-mb" src="/images/mob-main-banner.jpg" alt="Банер тушь Avon">
+            <div class="product__label">Новинка</div>
+            <div class="img-feature">
+                <div class="img-feature__bullet">
+                    <div class="img-feature__icon1"></div>
+                    <div class="img-feature__text">
+                        <div class="img-feature__title">Уникальная<br>
+                            щеточка LIFT-FIX</div>
+                        <div class="img-feature__desc">Приподнимает каждую ресничку<br>
+                            на максимум</div>
+                    </div>
+
+                </div>
+                <div class="img-feature__bullet">
+                    <div class="img-feature__icon2"></div>
+                    <div class="img-feature__text">
+                        <div class="img-feature__title">Инновационная<br>
+                            формула lift & lock</div>
+                        <div class="img-feature__desc">Удлиняет самые упрямые ресницы<br>
+                            + максимальный лифтинг-эффект</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-desc">
+            <div class="product-desc__grid">
+                <div class="product-feature">
+                    <div class="product-feature__img1"></div>
+                    <div class="product-feature__title">Лифтинг<br> и подкручивание <span class="product__feature-number1">4</span></div>
+                </div>
+                <div class="product-feature2">
+                    <div class="product-feature__img2"></div>
+                    <div class="product-feature__title">Максимальный<br> объем <span class="product__feature-number2">6</span></div>
+                </div>
+            </div>
+            <div class="product-feature">
+                <div class="product-feature__img3"></div>
+                <div class="product-feature__title">Больше дины<br><span class="product__feature-number3">78</span><span class="product__feature-number4">4</span></div>
+            </div>
+            <h1>Тушь для ресниц<br> «Ресницы без границ»</h1>
+            <div class="price">
+                <div class="price__old">605 ₽</div>
+                <div class="price__new">329 ₽</div>
+            </div>
+            <form class="add-to-cart">
+                <div class="color">
+                    <div class="color__item">
+                        <input type="radio" id="color1" name="color-option" value="Коричнево-черная">
+                        <label for="color1">
+                            <img src="/images/img5.png" alt="Коричнево-черная">
+                        </label>
+                    </div>
+                    <div class="color__item">
+                        <input type="radio" id="color2" name="color-option" value="Графит">
+                        <label for="color2">
+                            <img src="/images/img6.png" alt="Графит">
+                        </label>
+                    </div>
+                    <div class="color__item">
+                        <input type="radio" id="color3" name="color-option" value="Темно-синий">
+                        <label for="color3">
+                            <img src="/images/img7.png" alt="Темно-синий">
+                        </label>
+                    </div>
+                    <div class="color__item">
+                        <input type="radio" id="color4" name="color-option" value="Черный">
+                        <label for="color4">
+                            <img src="/images/img8.png" alt="Черный">
+                        </label>
+                    </div>
+                </div>
+                <div class="color__desc"></div>
+                <input type="submit" value="Купить" class="main-btn">
+            </form>
+            <div class="product-desc__img"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
